@@ -25,7 +25,7 @@
     
   #### eslint:
   ```
-  npm i --save -D eslint@7.0.0 eslint-config-airbnb eslint-config-airbnb-base eslint-plugin-importeslint-plugin-fsd --force
+  npm i --save -D eslint eslint-config-airbnb eslint-config-airbnb-base eslint-plugin-import 
   ```
     
   #### stylelint:
@@ -35,7 +35,7 @@
   
   #### prettier:
   ```
-  npm i --save -D prettier eslint-config-prettier eslint-plugin-prettier prettier-eslint stylelint-config-prettier stylelint-prettier --force
+  npm i --save -D prettier eslint-config-prettier eslint-plugin-prettier prettier-eslint stylelint-config-prettier stylelint-prettier
   ```
     
 ## Структура файлов
@@ -102,6 +102,7 @@
       static: {
       directory: path.resolve(__dirname, 'dist'),
       },
+      // тут нужно вместо index.html указать явно какую страницу открвыть напрмер page.html
       open: '/index.html',
       hot: false,
     },
