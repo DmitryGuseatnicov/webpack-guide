@@ -212,7 +212,6 @@
   },
   "extends": [
     "airbnb-base",
-    "plugin:fsd/all",
     "plugin:prettier/recommended",
     "prettier"
   ],
@@ -220,7 +219,7 @@
     "$": "readonly",
     "jQuery": "readonly"
   },
-  "plugins": ["fsd", "pug", "prettier"],
+  "plugins": ["prettier"],
   "rules": {
     "no-new": "off",
     "import/no-unresolved": "off",
@@ -235,7 +234,6 @@
  ```
   {
     "extends":[
-      "stylelint-config-airbnb", 
       "stylelint-config-rational-order",
       "stylelint-prettier/recommended"
     ],
