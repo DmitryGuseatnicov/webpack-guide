@@ -15,7 +15,7 @@
   
   #### scss:
   ```
-  npm i --save -D sass sass-loader postcss postcss-loader postcss-preset-env css-loader autoprefixerresolve-url-loader mini-css-extract-plugin
+  npm i --save -D sass sass-loader postcss postcss-loader postcss-preset-env css-loader autoprefixer resolve-url-loader mini-css-extract-plugin
   ```
     
   #### babel:
