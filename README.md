@@ -15,7 +15,7 @@
   
    #### scss:
     ```
-      npm i --save -D sass sass-loader postcss postcss-loader postcss-preset-env css-loader autoprefixer resolve-url-loader
+      npm i --save -D sass sass-loader postcss postcss-loader postcss-preset-env css-loader autoprefixer resolve-url-loader mini-css-extract-plugin
     ```
     
    #### babel:
@@ -25,17 +25,17 @@
     
    #### eslint:
     ```
-      npm i --save -D eslint@7.0.0 eslint-config-airbnb eslint-config-airbnb-base eslint-plugin-import eslint-plugin-fsd
+      npm i --save -D eslint@7.0.0 eslint-config-airbnb eslint-config-airbnb-base eslint-plugin-import eslint-plugin-fsd --force
     ```
     
-   #### eslint:
+   #### stylelint:
     ```
       npm i --save -D stylelint stylelint-config-airbnb stylelint-config-rational-order stylelint-declaration-block-no-ignored-properties stylelint-order stylelint-scss
     ```
   
   #### prettier:
     ```
-      npm i --save -D prettier eslint-config-prettier eslint-plugin-prettier prettier-eslint stylelint-config-prettier stylelint-prettier
+      npm i --save -D prettier eslint-config-prettier eslint-plugin-prettier prettier-eslint stylelint-config-prettier stylelint-prettier --force
     ```
     
 ## Структура файлов
